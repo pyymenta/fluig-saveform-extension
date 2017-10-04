@@ -1,3 +1,4 @@
+// Copyright (c) 2017 ECP Fluigers. All rights reserved.
 
 /**
  * Get the current URL.
