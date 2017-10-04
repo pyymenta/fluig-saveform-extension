@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fluig Saveform Chrome Extension",
+  "description": "Este plugin tem a finalidade de salvar as informações de um formulário bloqueado.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "fluig-save.png",
+    "default_popup": "saveform.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

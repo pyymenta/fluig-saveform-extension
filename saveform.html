@@ -1,0 +1,54 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Fluig Saveform Chrome Extension</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      #salvarForm {
+        cursor: pointer;
+      }
+      #salvarForm:hover {
+        background-color: burlywood;
+        font-weight: bold;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+    <script src="saveform.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- <div id="salvarForm"> -->
+<!--         <div style="width: 25%"><img src="iconsave.png" width="32" height="32"></div> -->
+     <!--    <div style="width: 75%">Salvar Formulário</div>
+      </div> -->
+      <button id="salvarForm">Salvar Formulário </button>
+    </div>
+  </body>
+</html>
