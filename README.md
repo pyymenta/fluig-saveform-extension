@@ -1,7 +1,7 @@
 # fluig-saveform-extension
 Este plugin tem a finalidade básica de salvar as informações de um formulário bloqueado.
 
-#Como usar:
+# Como usar
 
 1º Clone este repositório;
 
